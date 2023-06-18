@@ -15,4 +15,4 @@ To use Homer-Portainer effectively, ensure that you have the following details a
 Additionally, the default category is set to "Tools" when a specific category is not detected. You can modify the default category in the code by locating the following line: 
 
 ```javascript
-let containerCategory = category || 'DEFAULT CATEGORY';```
+let containerCategory = category || 'DEFAULT CATEGORY';

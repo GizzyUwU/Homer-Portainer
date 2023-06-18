@@ -1,0 +1,12 @@
+version: '3'
+services:
+  homer-autoupdate:
+    container_name: HomerUpdate-Tools-Hidden
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./path/to/config/assets/config.yml:/app/config.yml
+    environment:
+      - PORTAINER_API_URL=https://example.com/portainer
+      - PORTAINER_TOKEN=portainer_api_key
